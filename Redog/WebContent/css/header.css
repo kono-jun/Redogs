@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+/* ヘッダー */
+
+/* 新規ボタン */
+li.entrybutton{
+	position:  absolute;
+	top: 32px;
+	right: 14%;
+	display:inline;
+	list-style: none;
+	font-size: 19px;
+}
+/* ログインボタン */
+li.loginbutton{
+	position:  absolute;
+	top: 32px;
+	right: 7%;
+	display:inline;
+	list-style: none;
+	font-size: 19px;
+}
+
+/* ホームボタン */
+.homebutton {
+	position:  absolute;
+	top: 19px;
+	left: 3%;
+	font-size: 34px;
+	display:inline;
+}
+
+/* リンク装飾 */
+li a{
+	text-decoration: none;
+	z-index:3;
+}
+
+.homeColor{
+	color: #f4a460;
+}
+
+.headerBottonColor{
+	color: dimgray;
+}
+
+/* ヘッダー背景 */
+header {
+	position: fixed;
+	display: inline;
+	height: 90px;
+	width: 100%;
+	margin: auto;
+	z-index: 2;
+	text-shadow:2px 0 1px white;
+}
+
+/* ヘッダー背景OFF */
+.headerOut {
+	text-shadow:1px 0 0.5px white;
+	background-color: rgba(0, 0, 0, 0.0);
+	border: none;
+	transition: all 1s;
+}
+
+/* ヘッダー背景ON */
+.headerIn {
+	text-shadow:0 0 0 white;
+	background-color: #f4a460;
+	opacity: 0.9;
+
+}
+/*ページ最上部時 白 */
+.topHomeColor {
+	color: #f4a460;
+	transition: all 1s;
+}
+
+.topHeaderColor {
+	color: dimgray;
+	transition: all 1s;
+}
+
+
+
+/* ページ最上部以外 白 */
+.bottomColor {
+	color: white;
+}
+
+/* ulタグ属性無効 */
+ul {
+	list-style:none;
+	padding: 0;
+	margin: 0;
+}
+
+/* フッター設定 */
+footer {
+	background-color: gray;
+	color: white;
+	width: 100%;
+	height: 190px;
+	text-align: center;
+}
+
+.footer{
+	margin-top: 80px;
+}
+
+footer li{
+	display:inline;
+	margin-left: 30px;
+}

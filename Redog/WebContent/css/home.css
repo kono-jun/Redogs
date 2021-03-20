@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+/* 全体調整*/
+html {
+  min-height: 100%;
+  position: relative;
+}
+/* メインタイトル */
+h1.maintitle {
+	color: #f4a460;
+	font-size: 145px;
+	display:inline;
+	position:absolute;
+	top: 320px;
+	left: 125px;
+	text-shadow: 3px 4px 2px #626262;
+}
+
+/* 表題 */
+.poem {
+	font-size: 25px;
+	position: absolute;
+	top: 530px;
+	left: 215px;
+	text-shadow: 1px 2px 3px #808080;
+}
+
+/* 中央揃え */
+.center {
+	text-align: center;
+}
+
+/* ボディ */
+body {
+	font-family: 'Swashed', cursive, sans-serif;
+	font-weight: bold;
+	margin: 0 auto;
+	height: 100%;
+}
+
+/* メイン背景固定 */
+.main-background {
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+/* メイン画像 */
+.main-img {
+	background-image: url("../img/redogsHome.jpg");
+}
+
+/* サブ背景 */
+.sub-background {
+    background-color: white;
+}
+
+/* メイン画像固定 */
+div.scroll{
+	box-sizing: border-box;
+	display: flex;
+	height: 100%;
+	padding: 500px;
+}
+
+/* サブタイトル */
+h2 {
+	font-size: 24px;
+}
+
+/* サブタイトル位置 */
+.subtitle1 {
+	font-size: 30px;
+	position: absolute;
+	top: 1400px;
+	left: 200px;
+}
+.subtitle2 {
+	font-size: 30px;
+	position: absolute;
+	top: 2250px;
+	left: 200px;
+	margin-bottom: 800px;
+}
+
+.fadein {
+    opacity : 0;
+    transform : translate(0, 50px);
+    transition:all 1s;
+}
+.fadein.scrollin {
+    opacity : 1;
+    transform : translate(0, 0);
+}
+.wrapper {
+	min-height: 100%;
+}
